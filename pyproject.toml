@@ -1,0 +1,21 @@
+[project]
+name = "flightradar-to-g1000"
+version = "0.1.0"
+description = "This project converts FlightRadar ADSB CSVs into the G1000 format for loading into ForeFlight for review."
+authors = [
+    {name = "ReadyPlayerEmma"},
+]
+readme = "README.md"
+license = "MIT"
+license-files = [
+    "LICENSE",
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=2.2.3",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
