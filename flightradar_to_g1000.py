@@ -94,7 +94,6 @@ def convert_to_g1000_format(input_file_path):
             "HPLwas",
             "HPLfd",
             "VPLwas",
-            "VPLfd",
         ]
 
         # Split Position column into Latitude and Longitude

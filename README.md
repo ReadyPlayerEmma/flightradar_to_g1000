@@ -21,7 +21,7 @@ uv sync
 To convert a CSV file to Garmin G1000 format, run the following command:
 
 ```bash
-python flightradar_to_g1000.py <input_file_path>
+uv run flightradar_to_g1000.py <input_file_path>
 ```
 
 Replace `<input_file_path>` with the path to your input CSV file.
@@ -29,7 +29,7 @@ Replace `<input_file_path>` with the path to your input CSV file.
 ## Example
 
 ```bash
-python flightradar_to_g1000.py sample_data/source/38e7ef15.csv
+uv run flightradar_to_g1000.py sample_data/source/38e7ef15.csv
 ```
 
 The converted file will be saved with a `_g1000` suffix before the file extension.
