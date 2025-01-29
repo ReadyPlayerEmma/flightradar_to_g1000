@@ -14,3 +14,6 @@ wheels/
 
 # VSCode files
 .vscode/
+
+# Coverted sample data files that are in the data source directory
+sample_data/source/*_g1000.csv
