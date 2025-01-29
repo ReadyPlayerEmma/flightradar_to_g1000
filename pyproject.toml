@@ -1,6 +1,6 @@
 [project]
 name = "flightradar-to-g1000"
-version = "0.1.0"
+version = "0.1.1"
 description = "This project converts FlightRadar24 ADSB CSVs into the G1000 format for loading into ForeFlight for review."
 authors = [
     {name = "ReadyPlayerEmma"},
@@ -28,3 +28,6 @@ build-backend = "hatchling.build"
 dev-dependencies = [
     "ruff>=0.7.1",
 ]
+
+[project.scripts]
+flightradar-to-g1000 = "flightradar_to_g1000:main"
