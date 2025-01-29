@@ -1,6 +1,6 @@
 # flightradar-to-g1000
 
-This project converts flight data from a CSV file into Garmin G1000 flight log CSV format. One use for this project is for converting FlightRadar ADSB CSVs into the G1000 format for loading into ForeFlight for review.
+This project converts ADSB data from a FlightRadar24 CSV file into Garmin G1000 flight log CSV format. One use for this project is for converting the ADSB CSVs into the G1000 format for loading into ForeFlight for review.
 
 ## Requirements
 

@@ -1,7 +1,7 @@
 [project]
 name = "flightradar-to-g1000"
 version = "0.1.0"
-description = "This project converts FlightRadar ADSB CSVs into the G1000 format for loading into ForeFlight for review."
+description = "This project converts FlightRadar24 ADSB CSVs into the G1000 format for loading into ForeFlight for review."
 authors = [
     {name = "ReadyPlayerEmma"},
 ]
